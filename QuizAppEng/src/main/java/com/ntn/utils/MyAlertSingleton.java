@@ -8,25 +8,25 @@ import javafx.scene.control.Alert;
 
 /**
  *
- * @author admin
+ * @author HP 15
  */
 public class MyAlertSingleton {
     private static MyAlertSingleton instance;
     private final Alert alert;
     private MyAlertSingleton(){
         alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("quizzap");
+        alert.setTitle("Quizapp");
         alert.setHeaderText("Quiz App");
     }
     
-    public static MyAlertSingleton getInstance(){
-        if (instance == null)
+    public static MyAlertSingleton getinstance(){
+        if(instance == null)
             instance = new MyAlertSingleton();
         return instance;
     }
     
     public void showMsg(String content){
-        this.alert.setContentText(content);
-        this.alert.show();
+        alert.setContentText(content);
+        alert.show();
     }
 }

@@ -1,7 +1,7 @@
-module com.mycompany.quizappeng {
+module quizappv1.quizappeng {
     requires javafx.controls;
     requires javafx.fxml;
 
-    opens com.mycompany.quizappeng to javafx.fxml;
-    exports com.mycompany.quizappeng;
+    opens quizappv1.quizappeng to javafx.fxml;
+    exports quizappv1.quizappeng;
 }
