@@ -1,6 +1,7 @@
 package quizappv1.quizappeng;
 
 import com.ntn.utils.MyAlertSingleton;
+import com.ntn.utils.MyQuestionSingleton;
 import com.ntn.utils.Themes.ThemeTypes;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -20,7 +21,7 @@ public class PrimaryController implements Initializable{
     }
     
     public void manageQues(ActionEvent e){
-        MyAlertSingleton.getinstance().showMsg("Coming soon...");
+        MyQuestionSingleton.getInstance().showMsg("Questions");
     }
     
     public void practice(ActionEvent e){

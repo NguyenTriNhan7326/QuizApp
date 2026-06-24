@@ -11,6 +11,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-background-color: lightblue;
     -fx-alignment: CENTER;
     -fx-spacing: 15;
+    -fx-padding: 10;
 }
 
 .Subject{
@@ -27,4 +28,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-font-size: 16;
     -fx-pref-width: 250;
     -fx-padding: 8;
+}
+
+.Spacing{
+    -fx-padding: 10;
+    -fx-spacing: 10;
 }
